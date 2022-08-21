@@ -1,0 +1,49 @@
+* {
+    preenchimento :  0 ;
+    margem :  0 ;
+    box-sizing : border-box;
+  }
+  
+  corpo {
+    altura :  100 vh ;
+    exibição : flexível;
+    fundo :  # e4c515 ;
+  }
+  
+  # papelão {
+    largura :  640px ; _
+    altura :  640px ; _
+    margem : automático;
+    exibição : flexível;
+    flex- wrap : wrap;
+  }
+  
+  . cartão de memória {
+    largura :  calc ( 25 %  -  10px ) ;
+    altura :  33 % ;
+    margem :  5px ; _
+    transform-style : preserve-3d;
+    transição :  0,3 s ;
+    posição : relativa;
+  }
+  
+  . cartão de memória : ativo {
+    transformar :  escala ( 0,97 );
+  }
+  
+  . cartão de memória . virar {
+    transform :  girarY ( 180 graus );
+  }
+  
+  . frontal ,
+  . contra-rosto {
+    largura :  100 % ;
+    altura :  100 % ;
+    preenchimento :  20px ; _
+    posição : absoluta;
+    fundo :  # 675a10 ;
+  }
+  
+  . frontal {
+    transform :  girarY ( 180 graus );
+  }
